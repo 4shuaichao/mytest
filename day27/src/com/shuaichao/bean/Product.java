@@ -9,6 +9,7 @@ public class Product {
 	private String pname;
 	private double price;
 	private Date pdate;
+	//hahahah
 
 	public Product() {
 	}
