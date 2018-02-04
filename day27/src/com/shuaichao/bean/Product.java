@@ -12,7 +12,6 @@ public class Product {
 	//hahahah
 	//222222222
 	//333333333333
-	//4444444444
 
 	public Product() {
 	}
