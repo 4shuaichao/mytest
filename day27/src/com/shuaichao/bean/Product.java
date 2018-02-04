@@ -10,6 +10,7 @@ public class Product {
 	private double price;
 	private Date pdate;
 	//hahahah
+	//222222222
 
 	public Product() {
 	}
