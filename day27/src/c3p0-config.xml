@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<c3p0-config>
+	<!-- 默认的配置方式 -->
+  <default-config>
+  	<!-- 数据库的连接配置 -->
+  	<property name="user">root</property>
+  	<property name="password">123456</property>
+  	<property name="jdbcUrl">jdbc:mysql://localhost:3306/day27</property>
+  	<property name="driverClass">com.mysql.jdbc.Driver</property>
+  	
+  	<!-- 连接池的配置 -->
+    <property name="checkoutTimeout">2000</property>
+    <property name="initialPoolSize">5</property>
+    <property name="maxIdleTime">30000</property>
+    <property name="maxPoolSize">12</property> 
+  </default-config>
+
+  <!-- 命名配置 -->
+  <named-config name="超超"> 
+    <!-- 数据库的连接配置 -->
+  	<property name="user">root</property>
+  	<property name="password">123456</property>
+  	<property name="jdbcUrl">jdbc:mysql://localhost:3306/day26</property>
+  	<property name="driverClass">com.mysql.jdbc.Driver</property>
+  	
+  	<!-- 连接池的配置 -->
+    <property name="checkoutTimeout">2000</property>
+    <property name="initialPoolSize">5</property>
+    <property name="maxIdleTime">30000</property>
+    <property name="maxPoolSize">15</property>
+  </named-config>
+</c3p0-config>
