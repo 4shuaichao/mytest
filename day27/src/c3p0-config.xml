@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!-- 11111111111111默认的配置方式 -->
+
 <c3p0-config>
 	<!-- 默认的配置方式 -->
   <default-config>
